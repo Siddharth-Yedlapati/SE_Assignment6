@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Git') {
             steps {
-                git 'https://github.com/Siddharth-Yedlapati/SE-Assignment-6'
+                git 'https://github.com/Siddharth-Yedlapati/SE_Assignment6'
             }
         }
         stage('Build Code') {
